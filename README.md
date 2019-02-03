@@ -129,5 +129,38 @@ See:
 * support for private segments
 * replayable rides as videos/gifs (if imported data has timestamps for segments)
 
+## Pixel font
+
+:art:
+
+* some characters are already used, see examples below
+* inspired by [Mogee Font](https://github.com/kuzminadya/mogeefont/)
+
+Examples:
+
+<a href="https://github.com/oleksmarkh/music-stats">
+  <img
+    src="https://raw.githubusercontent.com/oleksmarkh/music-stats/master/client/assets/logo/logo.png"
+    width="120"
+    alt="Music Stats"
+  />
+</a>
+
+<a href="https://github.com/color-moose">
+  <img
+    src="https://avatars1.githubusercontent.com/u/24212226"
+    width="120"
+    alt="Color Moose"
+  />
+</a>
+
+<a href="https://github.com/jam-keeper">
+  <img
+    src="https://avatars2.githubusercontent.com/u/46428378"
+    width="120"
+    alt="Jam Keeper"
+  />
+</a>
+
 [license-image]: https://img.shields.io/github/license/oleksmarkh/crazy-ideas.svg?style=flat-square
 [license-url]: https://github.com/oleksmarkh/crazy-ideas/blob/master/LICENSE
