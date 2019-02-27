@@ -135,6 +135,7 @@ See:
 
 * some characters are already used, see examples below
 * inspired by [Mogee Font](https://github.com/kuzminadya/mogeefont/)
+* see ["A beautifully illustrated glossary of typographic terms you should know"](https://www.canva.com/learn/typography-terms/) for terminology
 
 Examples:
 
