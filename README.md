@@ -139,9 +139,9 @@ See:
 
 Examples:
 
-<a href="https://github.com/oleksmarkh/music-stats">
+<a href="https://github.com/music-stats">
   <img
-    src="https://raw.githubusercontent.com/oleksmarkh/music-stats/master/client/assets/logo/logo.png"
+    src="https://raw.githubusercontent.com/music-stats/map/master/assets/logo/logo.png"
     width="120"
     alt="Music Stats"
   />
