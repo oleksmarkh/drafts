@@ -143,6 +143,14 @@ Examples:
 
 <a href="https://github.com/music-stats">
   <img
+    src="https://avatars2.githubusercontent.com/u/48298354"
+    width="115"
+    alt="Minimalistic Games"
+  />
+</a>
+
+<a href="https://github.com/music-stats">
+  <img
     src="https://avatars1.githubusercontent.com/u/48178221"
     width="115"
     alt="Music Stats"
