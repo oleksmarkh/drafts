@@ -2,7 +2,7 @@
 
   [![license][license-image]][license-url]
 
-A list of things to be done :/
+A list of things to think about.
 
 ## A grid extension for laying out front-ends
 
@@ -30,11 +30,13 @@ See:
 
 :microscope:
 
-* completely client-side (no requests made)
-* collect "start/finish" timeframes
+* completely client-side (no requests triggered from the extension, no tracking)
+* collect:
+  * "start/finish" timeframes (in active tab)
+  * times a URL is entered, together with navigation within the domain (path-level gradation)
 * display a summary and trends to showcase patterns (how much time is spent with which website)
-* think about path-level gradation additionally to domains
-* support filtering and whitelisting (if only certain domains are interesting)
+* filtering and whitelisting (if only certain domains are interesting)
+* grouping (productive, social, news, etc.)
 
 ## JS lib to run migrations
 
@@ -141,8 +143,8 @@ Examples:
 
 <a href="https://github.com/music-stats">
   <img
-    src="https://raw.githubusercontent.com/music-stats/map/master/assets/logo/logo.png"
-    width="120"
+    src="https://avatars1.githubusercontent.com/u/48178221"
+    width="115"
     alt="Music Stats"
   />
 </a>
@@ -150,7 +152,7 @@ Examples:
 <a href="https://github.com/color-moose">
   <img
     src="https://avatars1.githubusercontent.com/u/24212226"
-    width="120"
+    width="115"
     alt="Color Moose"
   />
 </a>
@@ -158,7 +160,7 @@ Examples:
 <a href="https://github.com/jam-keeper">
   <img
     src="https://avatars2.githubusercontent.com/u/46428378"
-    width="120"
+    width="115"
     alt="Jam Keeper"
   />
 </a>
