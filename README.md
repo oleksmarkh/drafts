@@ -173,5 +173,14 @@ Examples:
   />
 </a>
 
+## Activity calendar
+
+:runner: :bar_chart:
+
+* colorcoding for different sports
+* monthly summary
+
+![photo_2019-03-14 11 32 59](https://user-images.githubusercontent.com/2470363/54350120-f0079b80-464c-11e9-8908-cc36fd129bbf.jpeg)
+
 [license-image]: https://img.shields.io/github/license/oleksmarkh/crazy-ideas.svg?style=flat-square
 [license-url]: https://github.com/oleksmarkh/crazy-ideas/blob/master/LICENSE
