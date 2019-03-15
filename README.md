@@ -180,11 +180,11 @@ Examples:
 * colorcoding for different sports
 * monthly summary
 
-<a href="https://user-images.githubusercontent.com/2470363/54350120-f0079b80-464c-11e9-8908-cc36fd129bbf.jpeg">
+<a href="https://user-images.githubusercontent.com/2470363/54423467-0545fe00-4711-11e9-9c56-421782527fdc.png">
   <img
-    src="https://user-images.githubusercontent.com/2470363/54350120-f0079b80-464c-11e9-8908-cc36fd129bbf.jpeg"
-    width="200"
-    alt="Jam Keeper"
+    src="https://user-images.githubusercontent.com/2470363/54423467-0545fe00-4711-11e9-9c56-421782527fdc.png"
+    width="375"
+    alt="activity calendar"
   />
 </a>
 
