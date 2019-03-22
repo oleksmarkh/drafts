@@ -6,7 +6,7 @@ A list of things to think about.
 
 ## A grid extension for laying out front-ends
 
-:wrench:
+🔧
 
 There might be many similar ones out there, and you don't need an extension to simply measure distance
 (macOS: `⌘`+`⇧`+`4` followed by `ESC` without releasing a mouse).
@@ -18,7 +18,7 @@ See:
 
 ## An extension that tracks requests destinations
 
-:microscope:
+🔬
 
 * collect number of requests made to different domains
 * compare the current one (origin) to externals
@@ -28,7 +28,7 @@ See:
 
 ## An extension that measures time spent in active browser tabs
 
-:microscope:
+🔬
 
 * completely client-side (no requests triggered from the extension, no tracking)
 * collect:
@@ -40,7 +40,7 @@ See:
 
 ## JS lib to run migrations
 
-:wrench:
+🔧
 
 * timestamp comparison
 * runner: orchestration
@@ -48,7 +48,7 @@ See:
 
 ## Functional strategy game
 
-:video_game:
+🎮
 
 * units - actors
 * each unit type is configured with some predefined set of aspects
@@ -59,7 +59,7 @@ See:
 
 ## Personal/family budget tracker
 
-:bar_chart:
+📊
 
 * define categories/subcategories and tags
 * log
@@ -68,7 +68,7 @@ See:
 
 ## "Social disconnector" - a web service that organizes chosen subscriptions
 
-:telescope:
+🔭
 
 Like Feedly, but for social media.
 The idea is to eliminate noise by reducing time spent on native feeds,
@@ -81,7 +81,7 @@ See:
 
 ## Pixel, turn-based game
 
-:video_game:
+🎮
 
 * units - battleships (different in size and other params)
 * one game move - select (one or more ships), shift to another area and fire (a target needs to be defined)
@@ -121,7 +121,7 @@ See:
 
 ## A map with annotated bicycle routes
 
-:earth_africa: :bicyclist:
+🌍 🚴
 
 * export routes from Strava and/or other sources
 * an editor that enables custom annotations (left turns, traffic lights, trams, etc.)
@@ -133,60 +133,66 @@ See:
 
 ## Pixel font
 
-:art:
+🎨
 
 * some characters are already used, see examples below
 * inspired by [Mogee Font](https://github.com/kuzminadya/mogeefont/)
 * see ["A beautifully illustrated glossary of typographic terms you should know"](https://www.canva.com/learn/typography-terms/) for terminology
 
-Examples:
+<details>
+  <summary>Examples:</summary>
 
-<a href="https://github.com/music-stats">
-  <img
-    src="https://avatars2.githubusercontent.com/u/48298354"
-    width="115"
-    alt="Minimalistic Games"
-  />
-</a>
+  <a href="https://github.com/music-stats">
+    <img
+      src="https://avatars2.githubusercontent.com/u/48298354"
+      width="115"
+      alt="Minimalistic Games"
+    />
+  </a>
 
-<a href="https://github.com/music-stats">
-  <img
-    src="https://avatars1.githubusercontent.com/u/48178221"
-    width="115"
-    alt="Music Stats"
-  />
-</a>
+  <a href="https://github.com/music-stats">
+    <img
+      src="https://avatars1.githubusercontent.com/u/48178221"
+      width="115"
+      alt="Music Stats"
+    />
+  </a>
 
-<a href="https://github.com/color-moose">
-  <img
-    src="https://avatars1.githubusercontent.com/u/24212226"
-    width="115"
-    alt="Color Moose"
-  />
-</a>
+  <a href="https://github.com/color-moose">
+    <img
+      src="https://avatars1.githubusercontent.com/u/24212226"
+      width="115"
+      alt="Color Moose"
+    />
+  </a>
 
-<a href="https://github.com/jam-keeper">
-  <img
-    src="https://avatars2.githubusercontent.com/u/46428378"
-    width="115"
-    alt="Jam Keeper"
-  />
-</a>
+  <a href="https://github.com/jam-keeper">
+    <img
+      src="https://avatars2.githubusercontent.com/u/46428378"
+      width="115"
+      alt="Jam Keeper"
+    />
+  </a>
+</details>
 
 ## Activity calendar
 
-:runner: :bar_chart:
+📊 🏃
 
 * colorcoding for different sports
 * monthly summary
 
-<a href="https://user-images.githubusercontent.com/2470363/54423467-0545fe00-4711-11e9-9c56-421782527fdc.png">
-  <img
-    src="https://user-images.githubusercontent.com/2470363/54423467-0545fe00-4711-11e9-9c56-421782527fdc.png"
-    width="375"
-    alt="activity calendar"
-  />
-</a>
+<details>
+  <summary>Spreadsheet screenshot:</summary>
+
+  <a href="https://user-images.githubusercontent.com/2470363/54423467-0545fe00-4711-11e9-9c56-421782527fdc.png">
+    <img
+      src="https://user-images.githubusercontent.com/2470363/54423467-0545fe00-4711-11e9-9c56-421782527fdc.png"
+      width="375"
+      alt="activity calendar"
+    />
+  </a>
+</details>
 
 [license-image]: https://img.shields.io/github/license/oleksmarkh/crazy-ideas.svg?style=flat-square
 [license-url]: https://github.com/oleksmarkh/crazy-ideas/blob/master/LICENSE
