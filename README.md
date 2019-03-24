@@ -180,15 +180,16 @@ See:
 📊 🏃
 
 * colorcoding for different sports
-* monthly summary
+* monthly summary table
+* progress chart
 
 <details>
   <summary>Spreadsheet screenshot:</summary>
 
-  <a href="https://user-images.githubusercontent.com/2470363/54423467-0545fe00-4711-11e9-9c56-421782527fdc.png">
+  <a href="https://user-images.githubusercontent.com/2470363/54883397-e27cbd80-4e65-11e9-8a26-6f89f15cb2fb.png">
     <img
-      src="https://user-images.githubusercontent.com/2470363/54423467-0545fe00-4711-11e9-9c56-421782527fdc.png"
-      width="375"
+      src="https://user-images.githubusercontent.com/2470363/54883397-e27cbd80-4e65-11e9-8a26-6f89f15cb2fb.png"
+      width="390"
       alt="activity calendar"
     />
   </a>
