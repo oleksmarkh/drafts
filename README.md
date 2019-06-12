@@ -186,10 +186,10 @@ See:
 <details>
   <summary>Spreadsheet screenshot:</summary>
 
-  <a href="https://user-images.githubusercontent.com/2470363/54883397-e27cbd80-4e65-11e9-8a26-6f89f15cb2fb.png">
+  <a href="https://user-images.githubusercontent.com/2470363/59356014-583b4b80-8d28-11e9-9154-2bbdd254b8bf.png">
     <img
-      src="https://user-images.githubusercontent.com/2470363/54883397-e27cbd80-4e65-11e9-8a26-6f89f15cb2fb.png"
-      width="390"
+      src="https://user-images.githubusercontent.com/2470363/59356014-583b4b80-8d28-11e9-9154-2bbdd254b8bf.png"
+      width="398"
       alt="activity calendar"
     />
   </a>
