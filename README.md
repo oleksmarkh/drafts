@@ -180,8 +180,9 @@ See:
 📊 🏃
 
 * colorcoding for different sports
-* monthly summary table
-* progress chart
+* different dimensions to log: time, length, elevation gain
+* multiple activities on a single day, e.g. cycling + gym
+* monthly summary table and progress charts
 
 <details>
   <summary>Spreadsheet screenshot:</summary>
