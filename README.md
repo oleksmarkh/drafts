@@ -187,10 +187,10 @@ See:
 <details>
   <summary>Spreadsheet screenshot:</summary>
 
-  <a href="https://user-images.githubusercontent.com/2470363/59356014-583b4b80-8d28-11e9-9154-2bbdd254b8bf.png">
+  <a href="https://user-images.githubusercontent.com/2470363/60503602-5a0d8480-9cc0-11e9-8b59-0c6e4cca1abb.png">
     <img
-      src="https://user-images.githubusercontent.com/2470363/59356014-583b4b80-8d28-11e9-9154-2bbdd254b8bf.png"
-      width="398"
+      src="https://user-images.githubusercontent.com/2470363/60503602-5a0d8480-9cc0-11e9-8b59-0c6e4cca1abb.png"
+      width="450"
       alt="activity calendar"
     />
   </a>
