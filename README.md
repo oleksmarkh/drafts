@@ -165,35 +165,6 @@ See:
       alt="Color Moose"
     />
   </a>
-
-  <a href="https://github.com/jam-keeper">
-    <img
-      src="https://avatars2.githubusercontent.com/u/46428378"
-      width="115"
-      alt="Jam Keeper"
-    />
-  </a>
-</details>
-
-## Activity calendar
-
-📊 🏃
-
-* colorcoding for different sports
-* different dimensions to log: time, length, elevation gain
-* multiple activities on a single day, e.g. cycling + gym
-* monthly summary table and progress charts
-
-<details>
-  <summary>Spreadsheet screenshot:</summary>
-
-  <a href="https://user-images.githubusercontent.com/2470363/60722469-4ddc2e00-9f31-11e9-9143-4ea43c9eb515.png">
-    <img
-      src="https://user-images.githubusercontent.com/2470363/60722469-4ddc2e00-9f31-11e9-9143-4ea43c9eb515.png"
-      width="568"
-      alt="activity calendar"
-    />
-  </a>
 </details>
 
 [license-image]: https://img.shields.io/github/license/oleksmarkh/crazy-ideas.svg?style=flat-square
