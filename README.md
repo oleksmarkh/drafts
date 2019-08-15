@@ -61,10 +61,11 @@ See:
 
 📊
 
-* define categories/subcategories and tags
-* log
-* plan (including recurring payments)
-* stats (diagrams)
+* define categories/subcategories
+* log (consider sort of a biweekly calendar)
+* plan (place predefined amounts and recurring payments)
+* biweekly/monthly graphs to observe trends
+* [Sankey diagrams](https://s.dou.ua/storage-files/sanky3.png) for yearly reports, consider [`d3-sankey`](https://github.com/d3/d3-sankey)
 
 ## "Social disconnector" - a web service that organizes chosen subscriptions
 
