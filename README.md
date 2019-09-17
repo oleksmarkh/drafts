@@ -78,7 +78,7 @@ That implies a need to be authorized by corresponding providers.
 
 See:
 
-* https://github.com/jivoi/awesome-osint#social-media-tools
+* [Awesome OSINT: Social Media Tools](https://github.com/jivoi/awesome-osint#social-media-tools)
 
 ## Pixel, turn-based game
 
@@ -99,15 +99,15 @@ See:
 +-----------------------------------------------+
 | +---\   +--\                                  |
 | |●●●●>  |●●●>                      /---+      |
-| +---/   +--/         ····/---+    <○○○○|      |
+| +---/   +--/        ·····/---+    <○○○○|      |
 |                 ····· ··<○○○○|     \---+      |
-| +-+   +----\····    ·····\---+                |
+| +-+   +----\·····   ·····\---+                |
 | |●|   5●●●●●>     ·····     +-+   /------+    |
 | |●|   +----/    ·····       |○|  <○○○○○○○|    |
 | |●|           ··· ··        |○|   \------+    |
 | |●|    +3+  ···  ··         \○/               |
 | \●/    |●|···   ··           ⌄                |
-|  ⌄     |●|     ··                             |
+|  ⌄     |●|·    ··                             |
 |        \●/  +-\·              /------+     ⌃  |
 |         ⌄   2●●>             / ○○○○○○|    /○\ |
 |             +-/             <○○○○○○○○|    |○| |
@@ -143,7 +143,7 @@ See:
 <details>
   <summary>Examples:</summary>
 
-  <a href="https://github.com/music-stats">
+  <a href="https://github.com/minimalistic-games">
     <img
       src="https://avatars2.githubusercontent.com/u/48298354"
       width="115"
