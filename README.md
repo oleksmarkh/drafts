@@ -143,7 +143,7 @@ See:
 <details>
   <summary>Examples:</summary>
 
-  <a href="https://github.com/minimalistic-games">
+  <a href="https://avatars2.githubusercontent.com/u/48298354">
     <img
       src="https://avatars2.githubusercontent.com/u/48298354"
       width="115"
@@ -151,7 +151,7 @@ See:
     />
   </a>
 
-  <a href="https://github.com/music-stats">
+  <a href="https://avatars1.githubusercontent.com/u/48178221">
     <img
       src="https://avatars1.githubusercontent.com/u/48178221"
       width="115"
@@ -159,7 +159,7 @@ See:
     />
   </a>
 
-  <a href="https://github.com/color-moose">
+  <a href="https://avatars1.githubusercontent.com/u/24212226">
     <img
       src="https://avatars1.githubusercontent.com/u/24212226"
       width="115"
