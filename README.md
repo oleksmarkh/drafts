@@ -90,6 +90,8 @@ See:
 * different guns have different effective areas, accuracy, damage power and (most importantly) - bullet limits
 * ships have armour that can be damaged (instantly) and repaired (granularly, during game moves)
 * each ship, gun and bullet costs something, depending on corresponding params
+* a map is not fully visible - it's limited to areas close to player's ships
+* damage is based on proximity - each shot looses precision with distance growing
 * it's a multiplayer, but turn-based game - during each round every player defines a *move* and then all involved ships (of all players) execute those moves - they shift, fire, receive damage and eventually sink
 * when ships of player A define a target among ships of player B, they should aim for the *upcoming* position of those B-ships, i.e. guessing a place where B would point the ships to
 * number of players is not limited to 2, it starts from 1 (training mode with static targets) and can grow to some meaningful limit (e.g. 8)
