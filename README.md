@@ -1,4 +1,4 @@
-# crazy-ideas
+# drafts
 
   [![license][license-image]][license-url]
 
@@ -170,5 +170,5 @@ See:
   </a>
 </details>
 
-[license-image]: https://img.shields.io/github/license/oleksmarkh/crazy-ideas.svg?style=flat-square
-[license-url]: https://github.com/oleksmarkh/crazy-ideas/blob/master/LICENSE
+[license-image]: https://img.shields.io/github/license/oleksmarkh/drafts.svg?style=flat-square
+[license-url]: https://github.com/oleksmarkh/drafts/blob/master/LICENSE
