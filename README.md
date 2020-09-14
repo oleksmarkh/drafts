@@ -84,18 +84,20 @@ See:
 
 🎮
 
-* units - battleships (different in size and other params)
-* one game move - select (one or more ships), shift to another area and fire (a target needs to be defined)
+* units: battleships (different in size and other params) and docks
+* resources: money, steel and fuel (convertible), the more shore territories are controlled, the more resources their bring
+* one game move - select (one or more ships), shift to another area (depends on available speed and fuel) and fire (a target needs to be defined) or skip
+* ships are pre-selectable before the round starts and also could be built in docks
 * damage depends on number and power of guns (sum of all guns on all selected ships)
-* different guns have different effective areas, accuracy, damage power and (most importantly) - bullet limits
-* ships have armour that can be damaged (instantly) and repaired (granularly, during game moves)
-* each ship, gun and bullet costs something, depending on corresponding params
-* a map is not fully visible - it's limited to areas close to player's ships
+* different guns have different effective areas, accuracy, damage power and (most importantly) - shell limits
+* ships have armour that can be damaged (instantly) and repaired (if small - slowly during game moves, faster - in docks)
+* a ship could be *captured* (either turned into an abandoned obstacle or refueled/recharged and became controlled), if it runs out of fuel or ammo
+* a map is not fully visible - it's limited to areas close to player's ships and controlled shores
 * damage is based on proximity - each shot looses precision with distance growing
-* it's a multiplayer, but turn-based game - during each round every player defines a *move* and then all involved ships (of all players) execute those moves - they shift, fire, receive damage and eventually sink
+* it's a multiplayer, but turn-based game (time limit is configurable) - every player defines a *move* and then all involved ships (of all players) execute those moves - they shift, fire, receive damage and eventually sink
 * when ships of player A define a target among ships of player B, they should aim for the *upcoming* position of those B-ships, i.e. guessing a place where B would point the ships to
 * number of players is not limited to 2, it starts from 1 (training mode with static targets) and can grow to some meaningful limit (e.g. 8)
-* each turn is recorded, so after the battle the whole sequence could be restored as animated scene
+* each turn is recorded, so rounds could be replayed
 
 ```
 +-----------------------------------------------+
@@ -121,18 +123,6 @@ See:
 | +--------/                +-----/             |
 +-----------------------------------------------+
 ```
-
-## A map with annotated bicycle routes
-
-🌍 🚴
-
-* export routes from Strava and/or other sources
-* an editor that enables custom annotations (left turns, traffic lights, trams, etc.)
-* a map to display the routes
-* sharable links (profiles, routes, selected areas)
-* public profiles should be protected by a clear policy
-* support for private segments
-* replayable rides as videos/gifs (if imported data has timestamps for segments)
 
 ## Pixel font
 
