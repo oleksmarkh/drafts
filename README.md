@@ -8,9 +8,11 @@ A list of things to think about.
 
 🔧
 
-There might be many similar ones out there, and you don't need an extension to simply measure distance
-(macOS: `⌘`+`⇧`+`4` followed by `ESC` without releasing a mouse).
-But I dare to guess that there might not be an almost UI-less one that just shows a semitransparent resizable grid.
+* resizable rulers, semitransparent dashed lines
+* separate grids attachable to selected DOM elements (via a context menu option)
+* movable 0-points (negative numbers on the left/top)
+* configurable offset patterns (for vertical rhythm)
+* clickable colored cells (to draft high-level layout containers quickly)
 
 See:
 
