@@ -40,6 +40,19 @@ See:
 * filtering and whitelisting (if only certain domains are interesting)
 * grouping (productive, social, news, etc.)
 
+## Physical scrobbler
+
+🎧
+
+* a semi-automated scrobbler, connecting [Discogs](https://www.discogs.com/developers#page:database,header:database-search) and [Last.fm](https://www.last.fm/api/scrobbling) APIs
+* user flow:
+  1. find a record via a search box (by artist, album, catalog number, etc.) or select it from the personal collection
+  1. choose which tracks to scrobble and which to skip, enter a starting time
+  1. click "scrobble", check the status
+  1. if the record is scrobbled for the first time, it could be added to the personal collection
+  1. optionally edit the record in the collection, e.g. choose a particular release, add/remove tracks, add notes
+* existing integrations: [Vinyl Scrobbler](https://vinylscrobbler.com/), [Open Scrobbler](https://github.com/elamperti/openwebscrobbler), [Universal Scrobbler](http://universalscrobbler.com/), [The Record Scrobbler](https://github.com/fptavares/scrobbler)
+
 ## JS lib to run migrations
 
 🔧
