@@ -72,6 +72,16 @@ See:
 * different kinds of units: heavy, dynamic, robust, resilient etc.
 * colors represent reactive interconnections
 
+## Diagram renderer for repos
+
+📊
+
+* a diagram is defined by a single file (e.g. `.diagram.yaml`), committed to a given repo - so it's in sync with repo content it's visualizing; multiple files define a set of diagrams, e.g. `.diagrams/main.yaml` + `.diagrams/offline-process.yaml`
+* YAML is suggested as a base format (despite all its flaws) because it supports comments and references
+* an intentionally limited (aiming to stay simple) notation is used, like "only colored boxes, lines and labels"
+* a server-side API generating static images (versions are based on commit hashes) - to embed them into Markdown, like badges
+* a two-panel editor (serverless microsite)
+
 ## Personal/family budget tracker
 
 📊
