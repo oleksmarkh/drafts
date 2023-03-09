@@ -3,8 +3,7 @@
 
 A list of things to think about. And maybe find some time to turn them into pet projects.
 
-## Another music-stats dataviz
-🎧
+## 🎧 Another music-stats dataviz
 * artists represented as points or lines, colored by genres
 * animated transitions between views:
   * map: points distributed within countries (polygons without stroke)
@@ -15,14 +14,12 @@ A list of things to think about. And maybe find some time to turn them into pet 
     * animation to: moving a point, then expanding to a line (or a set of lines, if there were years of inactivity)
     * animation from: same but backwards
 
-## Location editor/remover service
-🌍
+## 🌍 Location editor/remover service
 * pre-selection by dates, by shapes (circles, rectangles, polygons)
 * a map with marker clusters, to see how many photos have location attached
 * batch removal, if supported by external APIs: Google Photos, iCloud
 
-## A grid extension for laying out front-ends
-🔧
+## 🔧 A grid extension for laying out front-ends
 * resizable rulers, semitransparent dashed lines
 * separate grids attachable to selected DOM elements (via a context menu option)
 * movable 0-points (negative numbers on the left/top)
@@ -32,16 +29,14 @@ A list of things to think about. And maybe find some time to turn them into pet 
 See:
 * [Super-Powered Grid Components with CSS Custom Properties](https://css-tricks.com/super-power-grid-components-with-css-custom-properties)
 
-## An extension that tracks requests destinations
-🔬
+## 🔬 An extension that tracks requests destinations
 * collect number of requests made to different domains
 * compare the current one (origin) to externals
 * render various charts (with d3 utils)
 * re-playable "live" reports (based on persistent logs)
 * blockers comparison (draw milestones when some blocker got installed/removed)
 
-## An extension that measures time spent in active browser tabs
-🔬
+## 🔬 An extension that measures time spent in active browser tabs
 * completely client-side (no requests triggered from the extension, no tracking)
 * collect:
   * "start/finish" timeframes (in active tab)
@@ -50,8 +45,7 @@ See:
 * filtering and whitelisting (if only certain domains are interesting)
 * grouping (productive, social, news, etc.)
 
-## Physical scrobbler
-🎧
+## 🎧 Physical scrobbler
 * a semi-automated scrobbler, connecting [Discogs](https://www.discogs.com/developers#page:database,header:database-search) and [Last.fm](https://www.last.fm/api/scrobbling) APIs
 * user flow:
   1. find a record via a search box (by artist, album, catalog number, etc.) or select it from the personal collection
@@ -61,8 +55,7 @@ See:
   1. optionally edit the record in the collection, e.g. choose a particular release, add/remove tracks, add notes
 * existing integrations: [Vinyl Scrobbler](https://vinylscrobbler.com/), [Open Scrobbler](https://github.com/elamperti/openwebscrobbler), [Universal Scrobbler](http://universalscrobbler.com/), [The Record Scrobbler](https://github.com/fptavares/scrobbler)
 
-## Functional strategy game
-🎮
+## 🎮 Functional strategy game
 * units - actors
 * each unit type is configured with some predefined set of aspects
 * units influence each other
@@ -70,16 +63,14 @@ See:
 * different kinds of units: heavy, dynamic, robust, resilient etc.
 * colors represent reactive interconnections
 
-## Personal/family budget tracker
-📊
+## 📊 Personal/family budget tracker
 * define categories/subcategories
 * log (consider sort of a biweekly calendar)
 * plan (place predefined amounts and recurring payments)
 * biweekly/monthly graphs to observe trends
 * [Sankey diagrams](https://s.dou.ua/storage-files/sanky3.png) for yearly reports, consider [`d3-sankey`](https://github.com/d3/d3-sankey)
 
-## "Social disconnector" - a web service that organizes chosen subscriptions
-🔭
+## 🔭 "Social disconnector" - a web service that organizes chosen subscriptions
 Like Feedly, but for social media.
 The idea is to eliminate noise by reducing time spent on native feeds,
 having a list of accounts/tags you could explore just like RSS feeds.
@@ -88,8 +79,7 @@ That implies a need to be authorized by corresponding providers.
 See:
 * [Awesome OSINT: Social Media Tools](https://github.com/jivoi/awesome-osint#social-media-tools)
 
-## Pixel, turn-based game
-🎮
+## 🎮 Pixel, turn-based game
 * units: battleships (different in size and other params) and docks
 * resources: money, steel and fuel (convertible), the more shore territories are controlled, the more resources their bring
 * one game move - select (one or more ships), shift to another area (depends on available speed and fuel) and fire (a target needs to be defined) or skip
@@ -106,32 +96,31 @@ See:
 * each turn is recorded, so rounds could be replayed
 
 ```txt
-+-----------------------------------------------+
-| +---\   +--\                                  |
-| |●●●●>  |●●●>                      /---+      |
-| +---/   +--/        ·····/---+    <○○○○|      |
-|                 ····· ··<○○○○|     \---+      |
-| +-+   +----\·····   ·····\---+                |
-| |●|   5●●●●●>     ·····     +-+   /------+    |
-| |●|   +----/    ·····       |○|  <○○○○○○○|    |
-| |●|           ··· ··        |○|   \------+    |
-| |●|    +3+  ···  ··         \○/               |
-| \●/    |●|···   ··           ⌄                |
-|  ⌄     |●|·    ··                             |
-|        \●/  +-\·              /------+     ⌃  |
-|         ⌄   2●●>             / ○○○○○○|    /○\ |
-|             +-/             <○○○○○○○○|    |○| |
-|                              \ ○○○○○○|    |○| |
-| +--------\                    \------+    +-+ |
-| |●●●●●●●●●\                                   |
-| |●●●●●●●●●●>              +-----\             |
-| |●●●●●●●●●/               |○○○○○○>            |
-| +--------/                +-----/             |
-+-----------------------------------------------+
+┌───────────────────────────────────────────────┐
+│ ┌───╲   ┌──╲                                  │
+│ │●●●●▸  │●●●▸                      ╱───┐      │
+│ └───╱   └──╱        ·····╱───┐    ◂○○○○│      │
+│                 ····· ··◂○○○○│     ╲───┘      │
+│ ┌─┐   ┌────╲·····   ·····╲───┘                │
+│ │●│   5●●●●●▸     ·····     ┌─┐   ╱──────┐    │
+│ │●│   └────╱    ·····       │○│  ◂○○○○○○○│    │
+│ │●│           ··· ··        │○│   ╲──────┘    │
+│ │●│    ┌3┐  ···  ··         ╲○╱               │
+│ ╲●╱    │●│···   ··           ▾                │
+│  ▾     │●│·    ··                             │
+│        ╲●╱  ┌─╲·              ╱──────┐     ▴  │
+│         ▾   2●●▸             ╱ ○○○○○○│    ╱○╲ │
+│             └─╱             ◂○○○○○○○○│    │○│ │
+│                              ╲ ○○○○○○│    │○│ │
+│ ┌────────╲                    ╲──────┘    └─┘ │
+│ │●●●●●●●●●╲                                   │
+│ │●●●●●●●●●●▸              ┌─────╲             │
+│ │●●●●●●●●●╱               │○○○○○○▸            │
+│ └────────╱                └─────╱             │
+└───────────────────────────────────────────────┘
 ```
 
-## Pixel font
-🎨
+## 🎨 Pixel font
 * some characters are already used, see examples below
 * see ["A beautifully illustrated glossary of typographic terms you should know"](https://www.canva.com/learn/typography-terms/) for terminology
 
