@@ -4,14 +4,18 @@
 A list of things to think about. And maybe find some time to turn them into pet projects.
 
 ## 🎧 Another music-stats dataviz
-* artists represented as points or lines, colored by genres
+circles (animated through time: growing, moving)
+* artists represented as circles (area is proportional to total scrobble count), colored by genres
 * animated transitions between views:
-  * map: points distributed within countries (polygons without stroke)
-  * cloud of genres (gravitated points)
-  * timeline:
+  * map: artists distributed within countries (polygons without stroke)
+  * cloud of genres: gravitated circles
+  * scrobble timeline:
+    * x: last scrobble time
+    * y: total scrobble count
+  * artists activity timeline:
     * x: artist activity years
-    * y: scrobble count
-    * animation to: moving a point, then expanding to a line (or a set of lines, if there were years of inactivity)
+    * y: total scrobble count
+    * animation to: moving a circle, collapsing to a point, then expanding to a line (or a set of lines, if there were years of inactivity)
     * animation from: same but backwards
 
 ## 🌍 Location editor/remover service
